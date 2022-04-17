@@ -1,0 +1,411 @@
+body {
+	margin: 0;
+	font-family: verdana;
+}
+
+/*========================*/
+/*----Common Css Start----*/
+/*========================*/
+.w-20 {
+	width: 20%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.w-80 {
+	width: 80%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.container {
+	overflow: hidden;
+	width: 80%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.w-40 {
+	width: 40%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.w-10 {
+	width: 10%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.w-50 {
+	width: 50%;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+}
+
+.spacing {
+	padding-right: 10px;
+}
+
+.line {
+	border-top: 1px solid #bac1cb;
+}
+
+/*========================*/
+/*---- Common Css End ----*/
+/*========================*/
+
+
+/*========================*/
+/*--  Header Area Start --*/
+/*========================*/
+.heading-area {
+	background: #3b5999;
+	padding: 10px 0 3px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.heading-area .img-area img{
+	width: 175px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+
+.heading-area .login-area form {
+	float: right;
+	width: 50%;
+	padding-bottom: 2px;
+	box-sizing: border-box;
+}
+
+.heading-area .login-area input{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	box-sizing: border-box;
+}
+
+.heading-area .login-area input[type="submit"] {
+	display: inline;
+	margin-top: 24px;
+	border: 1px solid #36528a;
+	background: #5a719f;
+	color: #ebf1f3;
+	padding: 5px;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.heading-area .login-area input[type="checkbox"] {
+	display: inline-block;
+	margin-left: 0;
+}
+
+.heading-area .login-area label {
+	color: #e0f2f6;
+	font-size: 12px;
+}
+
+.heading-area .login-area .check-box, 
+.heading-area .login-area a  {
+	color: #7e97cc;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.heading-area .login-area a:hover {
+	text-decoration: underline;	
+}
+
+.heading-area .login-area .w-40.spacing {
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+.heading-area .login-area input[type="text"], 
+.heading-area .login-area input[type="password"] {
+	border: 1px solid #313a5b;
+	padding: 2px;
+} 
+
+.heading-area .login-area input[type="text"]:focus, 
+.heading-area .login-area input[type="password"]:focus, 
+.heading-area .login-area input[type="submit"]:focus{
+	outline: none;
+	border: 1px solid #00a8ff;
+}
+
+.heading-area .login-area input[type="text"]:focus, 
+.heading-area .login-area input[type="password"]:focus {
+	border: 2px solid #0984e3;
+}
+
+/*========================*/
+/*---  Header Area End ---*/
+/*========================*/
+
+
+
+
+/*=============================*/
+/*     Main Area Css Start     */
+/*=============================*/
+
+/* main area first w-50 css start*/
+
+.main-area {
+	background-image: linear-gradient(#e7ecf2, #e7ecf2);
+	padding: 20px;
+}
+
+.main-area .facebook-helps h3{
+	color: #113264;
+	margin: 42px 0 30px 5px;
+	font-size: 19px;
+	line-height: 27px;
+	margin: 24px 0 30px 5px;
+}
+
+.main-area .connect-people img {
+	width: 495px;
+}
+
+/* main area first w-50 css end*/
+
+
+
+
+/* main area second w-50 css start*/
+
+.main-area .resistration-heading h1 {
+	font-weight: normal;
+	color: #2a2b2e;
+	margin: 0;
+}
+
+.main-area .resistration-heading {
+	padding: 0 0px 25px 71px;
+}
+
+.main-area .resistration-heading h4 {
+	font-weight: normal;
+	color: #7e8389;
+	margin: 2px 0 0 1px;
+}
+
+.main-area .sign-up-area {
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 70px;
+}
+
+.main-area .sign-up-area input[type="text"],
+.main-area .sign-up-area input[type="password"],
+.main-area .sign-up-area input[type="email"]
+{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: block;
+	border-radius: 6px;
+	font-size: 16px;
+	border: 1px solid #cdced2;
+	outline: none;
+}
+
+::placeholder {
+	color: #a5a5a5;
+}
+
+.main-area .sign-up-area .name-spacing {
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+.main-area .sign-up-area input[type="text"]:focus,
+.main-area .sign-up-area input[type="password"]:focus,
+.main-area .sign-up-area input[type="email"]:focus
+{
+	border: 1px solid #00a8ff;
+}
+
+.main-area .sign-up-area .dop-area {
+	overflow: hidden;
+}
+
+.main-area .sign-up-area .dob-sected {
+	float: left;
+	margin-right: 13px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.main-area .sign-up-area .dob-link {
+	overflow: hidden;
+	margin-top: -5px;
+}
+
+.main-area .sign-up-area .dob-sected select {
+	padding: 7px;
+	border: 1px solid #caced3;
+}
+
+.main-area .sign-up-area .dop-area p {
+	color: #2b2c2f;
+	font-weight: bold;
+}
+
+.main-area .sign-up-area .dob-link a{
+	font-size: 11px;
+	text-decoration: none;
+	color: #4e6191;
+}
+
+.main-area .sign-up-area .dob-link a:hover {
+	text-decoration: underline;
+}
+
+.main-area .sign-up-area .gender-section input[type="radio"] {
+	margin-left: 0;
+}
+
+.main-area .sign-up-area .gender-section label{
+	padding-right: 20px;
+	font-size: 18px;
+	color: #3f4044;
+}
+
+.main-area .sign-up-area .clicking-sing-up p {
+	color: #989ba2;
+	font-size: 13px;
+}
+
+.main-area .sign-up-area .clicking-sing-up p a {
+	color: #5c6f9c;
+	text-decoration: none;
+}
+
+.main-area .sign-up-area .clicking-sing-up p a:hover {
+	text-decoration: underline;
+}
+
+.main-area .sign-up-area .sing-up {
+	margin: 20px 0;
+}
+
+.main-area .sign-up-area .sing-up input[type="submit"] {
+	padding: 6px 55px;
+	font-weight: bold;
+	font-family: arial;
+	color: #ffffff;
+	background-image: linear-gradient(#63a750, #588a45);
+	border: 1px solid #678f5c;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.main-area .sign-up-area .sing-up input[type="submit"]:hover {
+	background-image: linear-gradient(#5b964a, #548740);
+}
+
+.main-area .sign-up-area .create-page {
+	text-align: center;
+}
+
+.main-area .sign-up-area .create-page p{
+	font-size: 14px;
+	color: #989ba2;
+}
+
+.main-area .sign-up-area .create-page p a {
+	text-decoration: none;
+	color: #475977;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.main-area .sign-up-area .create-page p a:hover {
+	text-decoration: underline;
+}
+
+/* main area second w-50 css end*/
+
+/*=============================*/
+/*      Main Area Css End      */
+/*=============================*/
+
+
+
+
+
+/*=============================*/
+/*    Footer Area Css Start    */
+/*=============================*/
+
+.footer-area {
+	background: #ffffff;
+	padding: 0 0 70px;
+}
+
+
+.footer-area .language li {
+	float: left;
+	padding-right: 10px;
+	font-size: 12px;
+	color: #6f757c;
+}
+
+.footer-area .language {
+	overflow: hidden;
+	margin-bottom: 8px;
+	margin-top: 10px;
+}
+
+.footer-area ul {
+	padding-left: 0;
+	margin: 8px 0;
+}
+
+.footer-area li {
+	list-style-type: none;
+}
+
+.footer-area li a {
+	text-decoration: none;
+	color: #69747e;
+	font-size: 12px;
+}
+
+.footer-area li a:hover {
+	text-decoration: underline;
+}
+
+.footer-area .custom-links li{
+	float: left;
+	font-size: 12px;
+	color: #a5a5a5;
+	padding-right: 10px;
+	line-height: 23px;
+}
+
+.footer-area .custom-links {
+	overflow: hidden;
+}
+
+.footer-area .language .icon {
+	border: 1px solid #d7d7d7; 
+	padding: 0 5px;
+	background: #ebeff7;
+	display: inline-block;
+}
+
+/*=============================*/
+/*     Footer Area Css End     */
+/*=============================*/
+
+
+
